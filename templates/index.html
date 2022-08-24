@@ -7,10 +7,14 @@
     <title>My Site
     </title>
     <link rel="stylesheet" href="static/styles.css" type="text/css" media="screen" />
+
+    <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maitree&family=Waterfall&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/71a376781b.js" crossorigin="anonymous"></script>
    </head>
   <body>
     <div id="app">
@@ -68,9 +72,12 @@
 
 
 <div class="bottom-container">
-  <a class="footer-link" href="https://www.linkedin.com/in/stephen-summering-ab390a70?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn
+  <a href="https://github.com/summeringpainting">
+    <i class="fab fa-github fa-3x fa-inverse" id="git"></i>
   </a>
-  <a class="footer-link" href="https://github.com/summeringpainting">GitHub
+
+  <a href="https://github.com/summeringpainting">
+    <i class="fa-brands fa-linkedin fa-3x" style="color: white;" id="link"></i>
   </a>
   <p>© 2022 Stephen Summering.
   </p>

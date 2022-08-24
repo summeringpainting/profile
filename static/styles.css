@@ -114,30 +114,11 @@ hr {
     width: 30%;
     margin: auto;
 }
-/* .middle-container { */
-/*     background-color: red; */
-/*     margin-left: 260px; */
-/*     border: solid 20px; */
-/*     height: 200px; */
-/*     width: 200px; */
-/* } */
-/* .bottom-container { */
-/*     background-color: blue; */
-/*     margin-left: 500px; */
-/*     border: solid 10px; */
-/*     height: 200px; */
-/*     width: 200px; */
-/* } */
 
-/* hr { */
-/*     background-color: #FCF8E8; */
-/*     border-style: dotted none none; */
-/*     border-width: 7px; */
-/*     width: 10%; */
-/* } */
-/* h1 { */
-/*     color: #DF7861; */
-/* } */
-/* h3 { */
-/*     color: #DF7861; */
-/* } */
+#git {
+  padding-right: 10px;
+}
+
+#link {
+  padding-left: 10px;
+}
